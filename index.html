@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="output.css">
+  
+  <title>Product preview card </title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body class="bg-Cream md:h-screen">
+  <main class="md:flex md:items-center my-24">
+    <div class="w-11/12 mt-8 mx-auto rounded-2xl bg-White md:flex md:w-7/12 md:min-h-fit">
+      <div class="w-full md:basis-1/2">
+        <img 
+          class="block rounded-t-2xl md:hidden" 
+          src="images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfums" 
+        />
+
+        <img 
+          class="hidden md:block md:h-full md:object-cover md:rounded-l-xl" 
+          src="images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfums" 
+        />
+      </div>
+  
+      <div class="p-8 md:basis-1/2 md:px-12 md:py-0 md:mt-12">
+        <div>
+          <p class="text-DarkGrayishBlue font-montserrat uppercase tracking-trackingCard mb-4 md:mb-6">Perfume</p>
+          <h1 class="font-fraunces font-bold mb-8 leading-none">Gabrielle Essence Eau De Parfum</h1>
+        </div>
+  
+        <div>
+          <p class="info text-DarkGrayishBlue font-montserrat mb-8 md:leading-relaxed">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+            Perfumer-Creator for the House of CHANEL.
+          </p>
+  
+          <div class="flex items-center gap-4 mb-6 md:my-10 md:space-y-4">
+            <p class="text-5xl text-DarkCyan font-fraunces font-bold">$149.99</p>
+            <p class="text-xl text-DarkGrayishBlue font-montserrat line-through">$169.99</p>
+          </div>
+  
+          <div class="py-2">
+            <a class="flex justify-center items-center gap-3 text-center font-semibold bg-DarkCyan text-White p-4 rounded-lg cursor-pointer hover:bg-GreenHover">
+              <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/>
+              </svg>
+              Add to Cart
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Donovan Romero Escogido</a>.
+  </div> -->
+</body>
+</html>

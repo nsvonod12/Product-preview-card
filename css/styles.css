@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    /* 1rem = 10px */
+    font-size: 62.5%;
+  }
+  body {
+    font-size: 1.6rem;
+  }
+
+p{
+    font-size: 12px;
+}
+
+.info{
+    font-size: 1.4rem;
+}
+
+h1{
+    font-size: 3.3rem;
+}
+
+.attribution{
+    font-size: 1.4rem;
+    text-align: center;
+    padding: 1.5rem 0;
+}
+
+.attribution a{
+    color: hsl(158, 36%, 37%);
+}
+
+@media (width >= 768px) {
+    
+    h1{
+        font-size: 4rem;
+    }
+
+    .info{
+        font-size: 16px;
+    }
+}
