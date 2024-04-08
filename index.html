@@ -19,40 +19,40 @@
     .attribution a { color: hsl(228, 45%, 44%); }
   </style> -->
 </head>
-<body class="bg-Cream md:h-screen">
-  <main class="md:flex md:items-center my-24">
-    <div class="w-11/12 mt-8 mx-auto rounded-2xl bg-White md:flex md:w-7/12 md:min-h-fit">
-      <div class="w-full md:basis-1/2">
+<body class="bg-Cream">
+  <main class="w-11/12 container h-screen flex justify-center items-center mx-auto">
+    <div class="bg-White rounded-2xl md:h-5/6 md:w-8/12 md:flex">
+      <div class="mb-2 md:basis-1/2 md:h-full">
         <img 
-          class="block rounded-t-2xl md:hidden" 
+          class="rounded-t-2xl block md:hidden" 
           src="images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfums" 
         />
 
         <img 
-          class="hidden md:block md:h-full md:object-cover md:rounded-l-xl" 
+          class="hidden md:block md:object-cover md:rounded-l-xl md:h-full md:w-full" 
           src="images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfums" 
         />
       </div>
-  
-      <div class="p-8 md:basis-1/2 md:px-12 md:py-0 md:mt-12">
+      
+      <div class="w-full px-8 py-6 md:basis-1/2 md:px-12 md:py-16 ">
         <div>
-          <p class="text-DarkGrayishBlue font-montserrat uppercase tracking-trackingCard mb-4 md:mb-6">Perfume</p>
-          <h1 class="font-fraunces font-bold mb-8 leading-none">Gabrielle Essence Eau De Parfum</h1>
+          <p class="font-montserrat tracking-trackingCard uppercase mb-6 md:mb-8">Perfume</p>
+          <h1 class="font-fraunces font-bold leading-none mb-6 md:mb-10">Gabrielle Essence Eau De Parfum</h1>
         </div>
   
         <div>
-          <p class="info text-DarkGrayishBlue font-montserrat mb-8 md:leading-relaxed">
+          <p class="info font-montserrat text-DarkGrayishBlue mb-8 md:mb-0 md:leading-relaxed">
             A floral, solar and voluptuous interpretation composed by Olivier Polge, 
             Perfumer-Creator for the House of CHANEL.
           </p>
   
-          <div class="flex items-center gap-4 mb-6 md:my-10 md:space-y-4">
-            <p class="text-5xl text-DarkCyan font-fraunces font-bold">$149.99</p>
-            <p class="text-xl text-DarkGrayishBlue font-montserrat line-through">$169.99</p>
+          <div class="flex items-center gap-6 mb-8 md:my-10 lg:my-12">
+            <p class="font-fraunces font-bold text-5xl text-DarkCyan lg:text-6xl">$149.99</p>
+            <p class="font-montserrat line-through text-DarkGrayishBlue md:text-xl">$169.99</p>
           </div>
   
-          <div class="py-2">
-            <a class="flex justify-center items-center gap-3 text-center font-semibold bg-DarkCyan text-White p-4 rounded-lg cursor-pointer hover:bg-GreenHover">
+          <div class="pb-2 ">
+            <a class="flex items-center justify-center gap-4 rounded-xl p-4 bg-DarkCyan text-White font-montserrat font-semibold hover:bg-GreenHover hover:cursor-pointer">
               <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
                 <path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/>
               </svg>
@@ -61,6 +61,45 @@
           </div>
         </div>
       </div>
+      <!-- <div class="">
+        <img 
+          class="block rounded-t-2xl md:hidden" 
+          src="images/image-product-mobile.jpg" alt="Gabrielle Essence Eau De Parfums" 
+        />
+
+        <img 
+          class="hidden md:block md:h-1/2 md:rounded-l-xl" 
+          src="images/image-product-desktop.jpg" alt="Gabrielle Essence Eau De Parfums" 
+        />
+      </div> -->
+  
+      <!-- <div class="">
+        <div>
+          <p class="">Perfume</p>
+          <h1 class="">Gabrielle Essence Eau De Parfum</h1>
+        </div>
+  
+        <div>
+          <p class="info ">
+            A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+            Perfumer-Creator for the House of CHANEL.
+          </p>
+  
+          <div class="">
+            <p class="">$149.99</p>
+            <p class="">$169.99</p>
+          </div>
+  
+          <div class="">
+            <a class="">
+              <svg width="15" height="16" xmlns="http://www.w3.org/2000/svg">
+                <path d="M14.383 10.388a2.397 2.397 0 0 0-1.518-2.222l1.494-5.593a.8.8 0 0 0-.144-.695.8.8 0 0 0-.631-.28H2.637L2.373.591A.8.8 0 0 0 1.598 0H0v1.598h.983l1.982 7.4a.8.8 0 0 0 .799.59h8.222a.8.8 0 0 1 0 1.599H1.598a.8.8 0 1 0 0 1.598h.943a2.397 2.397 0 1 0 4.507 0h1.885a2.397 2.397 0 1 0 4.331-.376 2.397 2.397 0 0 0 1.12-2.021ZM11.26 7.99H4.395L3.068 3.196h9.477L11.26 7.991Zm-6.465 6.392a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Zm6.393 0a.8.8 0 1 1 0-1.598.8.8 0 0 1 0 1.598Z" fill="#FFF"/>
+              </svg>
+              Add to Cart
+            </a>
+          </div>
+        </div>
+      </div> -->
     </div>
   </main>
 
