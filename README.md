@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [https://github.com/nsvonod12/Product-preview-card](https://your-solution-url.com)
-- Live Site URL: [https://nsvonod12.github.io/Product-preview-card/](https://your-live-site-url.com)
+- Solution URL: [Solution](https://github.com/nsvonod12/Product-preview-card)
+- Live Site URL: [Site](https://nsvonod12.github.io/Product-preview-card/)
 
 ### Built with
 
